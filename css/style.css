@@ -10,6 +10,7 @@ body {
 
   html {
     scroll-behavior: smooth;
+    margin: auto;
   }
 
   /* Modify navbar */
@@ -188,6 +189,18 @@ body {
 }
 
 /* contact us form */
+
+#contact-us {
+  padding: 5%;
+  margin-left: 0;
+}
+
+#contact-us .img-background {
+  padding: 70px 0;
+  text-align: center;
+  background: url("../assets/alexander-andrews-jNKv4QohAk0-unsplash.jpg");
+  word-break: break-word;
+}
 
 .contact-us-form h1 {
   text-align: center;
