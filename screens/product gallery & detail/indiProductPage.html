@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="pgd.css">
+
+    </head>    
+    <body>
+
+        <!--Navigation bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="../../assets/logo-noBackground.png" alt="" width="250" height="50">
+                </a>
+
+                <!-- collapse button when screen size is reduced -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../home page/index.html" style="color: white;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: white;">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: white;">Contact</a>
+                </li>
+                </ul>
+                <a class="nav-link active" href="" style="color: white;">Search</a>
+                <a class="nav-link active" href="" style="color: white;">cart(0)</a>
+            </div>
+            </div>
+        </nav>
+        <!---End of Navigation bar-->
+
+        <!-- Product gallery product detail -->
+        <div class="container">
+            
+          <div class="img-content">
+            <div class="images">
+              <img src="../../assets/productSample4.jpg" class="small-img" alt="">
+              <img src="../../assets/productSample4.jpg" class="small-img" alt="">
+              <img src="../../assets/productSample4.jpg" class="small-img" alt="">
+            </div>
+            <div class="main-img">
+              <img src="../../assets/productSample4.jpg" class="big-img" alt="">
+            </div>
+          </div>
+          <div class="product-description">
+            <span class="product-status">sold-out</span>
+            <h2>PRODUCT 1</h2>
+            <h1>R 999.99</h1>
+            <p>Lorem, ipsum dolor.lor Lorem ipsum, dolor sit amet consectetur 
+              adipisicing elit. Praesentium molestiae quibusdam officia quod
+               omnis perferendis inventore, veniam id ex excepturi corrupti 
+               adipisci ullam vitae. Vero facilis ad quam voluptate ipsa!</p>
+               <div class="stepper-input">
+                QUANTITY
+                <button class="btn btn-left">-</button>
+                <input type="text" value="0" class="input-box"/>
+                <button class="btn btn-right">+</button>
+             </div>
+               <button class="cart-btn">Add to cart</button>
+          </div>
+        </div>
+        <!-- End of product gallery & product detail -->
+
+        <!-- More product row -->
+        <div class="product-gallery">
+            <h4>MORE PRODUCTS</h4>
+            <div class="main-carousel">
+                <div class="cell">
+                    <div class="col d-flex justify-content-center">
+                        <div class="category card text-center"style="width: 75%;">
+                          <img src="../../assets/productSample1.jpg" class="card-img-top img-rounded" alt="...">
+                          <div class="card-body">
+                            <p>R 999.99</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="cell">
+                    <div class="col d-flex justify-content-center">
+                        <div class="category card text-center"style="width: 75%;">
+                          <img src="../../assets/productSample2.jpg" class="card-img-top img-rounded" alt="...">
+                          <div class="card-body">
+                            <p>R 999.99</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="cell">
+                    <div class="col d-flex justify-content-center">
+                        <div class="category card text-center"style="width: 75%;">
+                          <img src="../../assets/productSample3.jpg" class="card-img-top img-rounded" alt="...">
+                          <div class="card-body">
+                            <p>R 999.99</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="cell">
+                    <div class="col d-flex justify-content-center">
+                        <div class="category card text-center"style="width: 75%;">
+                          <img src="../../assets/productSample5.jpg" class="card-img-top img-rounded" alt="...">
+                          <div class="card-body">
+                            <p>R 999.99</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="cell">
+                    <div class="col d-flex justify-content-center">
+                        <div class="category card text-center"style="width: 75%;">
+                          <img src="../../assets/productSample4.jpg" class="card-img-top img-rounded" alt="...">
+                          <div class="card-body">
+                            <p>R 999.99</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="cell">
+                    <div class="col d-flex justify-content-center">
+                        <div class="category card text-center"style="width: 75%;">
+                          <img src="../../assets/productSample5.jpg" class="card-img-top img-rounded" alt="...">
+                          <div class="card-body">
+                            <p>R 999.99</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                
+              </div>
+
+        </div>
+        <!-- End of more product row -->
+
+         <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-floating m-1" href="#!" role="button"
+          ><img src="../../assets/icons8-facebook-64.png" alt=""></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-floating m-1" href="#!" role="button"
+          ><img src="../../assets/icons8-twitter-64.png" alt=""></a>
+  
+        <!-- Instagram -->
+        <a class="btn  btn-floating m-1" href="#!" role="button"
+          ><img src="../../assets/icons8-instagram-64.png" alt=""></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-floating m-1" href="#!" role="button"
+          ><img src="../../assets/icons8-linkedin-64.png" alt=""></a>
+  
+        <!-- Github -->
+        <a class="btn btn-floating m-1" href="#!" role="button"
+          ><img src="../../assets/icons8-github-64.png" alt=""></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+          eum harum corrupti dicta, aliquam sequi voluptate quas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://threads.za/" style="text-decoration: none;">Threads.za</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+        
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script src="pgd.js"></script>
+    </body>
+</html>
