@@ -196,121 +196,71 @@ body {
 }
 
 #contact-us .img-background {
-  padding: 70px 0;
+  border-radius: 0 10px 10px 0;
+  padding: 75px 10px;
   text-align: center;
   background: url("../assets/alexander-andrews-jNKv4QohAk0-unsplash.jpg");
   word-break: break-word;
+  color: white;
+}
+#contact-us h1 {
+  font-weight: 200;
 }
 
-.contact-us-form h1 {
-  text-align: center;
+.form-input {
   margin: 10px;
 }
 
-.contact-us-form h2 {
-  font-weight: 300;
-  letter-spacing: normal;
+.form-input input {
+  background: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    height: 57px;
+    margin-right: 17px;
+    padding-left: 35px;
+    width: 70%;
+    cursor: pointer;
 }
 
-.register-photo {
-  background: #f1f7fc;
-  padding: 50px 0;
-}
-
-.register-photo .image-holder {
-  display: table-cell;
-  width: auto;
-  background: url("../assets/alexander-andrews-jNKv4QohAk0-unsplash.jpg");
-  border-radius: 10px 0 0 10px;
-  background-size: cover;
+.form-input input::placeholder {
   color: white;
-  padding-left: 10px;
 }
 
-.form-container {
-  border-radius: 0 10px 10px 0;
+.form-input textarea {
+  background: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    height: 57px;
+    margin-right: 17px;
+    padding-left: 35px;
+    width: 70%;
+    cursor: pointer;
 }
 
-.register-photo .form-container {
-  display: table;
-  max-width: 900px;
-  width: 90%;
-  margin: 0 auto;
-  box-shadow: 4px 24px 10px rgba(0,0,0,0.1);
+.form-input textarea::placeholder {
+    color: white;
 }
 
-.register-photo form {
-  display: table-cell;
-  width: 400px;
-  background-color: #ffffff;
-  padding: 20px 40px;
-  color: #505e6c;
+#contact-form {
+  border-radius: 10px 0 0 10px;
+  padding: 10px;
+  background-image: linear-gradient(to right, #44444c , #1b1c1e);
 }
 
-@media (max-width:991px) {
-  .register-photo form {
-    padding: 40px;
-  }
-}
-
-.register-photo form h2 {
-  font-size: 24px;
-  line-height: 1.5;
-  margin-bottom: 30px;
-}
-
-.register-photo form .form-control {
-  background: transparent;
+#contact-form-btn {
+  background-color: #35648E !important;
   border: none;
-  border-bottom: 1px solid #dfe7f1;
-  border-radius: 0;
-  box-shadow: none;
-  outline: none;
-  color: inherit;
-  text-indent: 0px;
-  height: 40px;
+  padding: 15px;
+  border-radius: 30px;
 }
 
-.register-photo form .form-check {
-  font-size: 13px;
-  line-height: 20px;
-}
 
-.register-photo form .btn-primary {
-  background: green;
-  border: none;
-  border-radius: 4px;
-  padding: 11px;
-  box-shadow: none;
-  margin-top: 35px;
-  text-shadow: none;
-  outline: none !important;
-}
-
-.register-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
-  background: green;
-}
-
-.register-photo form .btn-primary:active {
-  transform: translateY(1px);
-}
-
-.register-photo form .already {
-  display: block;
-  text-align: center;
-  font-size: 12px;
-  color: #6f7a85;
-  opacity: 0.9;
-  text-decoration: none;
-}
-
-textarea {
-  height: 100px;
-}
-
-.form-group {
-  border: 0.5px solid rgb(80, 80, 80);
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
 /* contact us form */
