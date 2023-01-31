@@ -147,6 +147,10 @@
     margin-bottom: 25px;
 }
 
+.delivery-etc .policy header {
+    font-weight: bold;
+}
+
 .newsletter {
     margin-top: 10%;
     margin-inline: 10%;

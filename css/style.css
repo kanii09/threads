@@ -123,10 +123,26 @@ body {
   }
 }
 
-#categories {
-  margin-inline: 10px;
-  letter-spacing: 4px;
+.tags {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
 }
+
+.tags.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+#categories {
+  padding-top: 20px;
+  border-radius: 0 0 10px 20px;
+  width: 100%;
+  letter-spacing: 4px;
+  background-color: #1b1c1e;
+  color: aliceblue;
+}
+
 
 .category {
   width: 50%; 
@@ -135,8 +151,6 @@ body {
 
 .category:hover {
   cursor: pointer;
-  width: 55%;
-  font-weight: 400;
   color: #ff9900;
 }
 
@@ -264,3 +278,7 @@ body {
 
 
 /* contact us form */
+
+footer {
+  border-radius: 25px 20px 0 0;
+}

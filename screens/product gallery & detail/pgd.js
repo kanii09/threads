@@ -27,3 +27,19 @@ $(document).ready(function() {
      $(".input-box").val(parseInt($(".input-box").val())+1);
   }); 
 }); 
+
+$(document).on("scroll", function() {
+  var pageTop = $(document).scrollTop();
+  var pageBottom = pageTop + $(window).height();
+  var tags = $(".tags");
+
+  for (var i = 0; i < tags.length; i++) {
+    var tag = tags[i];
+
+    if ($(tag).position().top < pageBottom) {
+      $(tag).addClass("visible");
+    } else {
+      $(tag).removeClass("visible");
+    }
+  }
+});
