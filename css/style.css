@@ -78,7 +78,7 @@ body {
 }
 
 .overlay { 
-  color: black;
+  color: aliceblue;
   position:absolute;
   z-index:12;
   top:15%;
